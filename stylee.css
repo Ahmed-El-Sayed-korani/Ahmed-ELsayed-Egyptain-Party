@@ -1,0 +1,143 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.menu {
+    background-color: rgb(65, 70, 88);
+}
+
+.navbar {
+    top: 480px;
+}
+
+.nav-item a:hover {
+    color: #333 !important;
+}
+
+/* css for home section  */
+.HOME {
+    background-image: url(events-heavenly-header.jpg);
+    width: 100%;
+    height: 120vh;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Martel', serif;
+}
+
+.overlay .content h1 {
+    font-size: 77px;
+    
+}
+
+.overlay .content p {
+    font-size: 22px;
+    padding-top: 10px;
+}
+
+
+
+
+.head-1,.head-2,.head-3,.head-4 {
+    background-color: rgba(214, 46, 51, 0.6);
+    cursor: pointer;
+}
+
+.acc-area {
+    background-color: #ccc;
+}
+
+.acc-detail-1,.acc-detail-2,.acc-detail-3,.acc-detail-4 {
+    display: none;
+}
+
+/* css for countdown section  */
+
+.clock {
+    background-image: url(invitation-2508607__340.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    margin-top: 150px;
+    text-align: center;
+
+}
+
+.overlay {
+    background-color: rgba(214, 46, 51, 0.6);
+    z-index: 999;
+}
+
+.data {
+    width: 180px;
+    height: 130px;
+}
+
+/* css for contact section  */
+
+.contact {
+    margin: 100px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact p {
+    color: rgb(119, 119, 119);
+    line-height: 30px;
+}
+
+.contact span {
+    color: rgb(119, 119, 119);
+    
+    font-size: 16px;
+}
+
+.contact-detail i {
+    color: rgb(119, 119, 119);
+    line-height: 38px;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.icon-item {
+    border: 1px solid gray;
+    width:40px;
+    height: 40px;
+    cursor: pointer;
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+}
+
+
+
+.icon-item:hover {
+background-color: red;
+color: rgb(255, 255, 255);
+}
+
+.form {
+    margin-top: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+.form span {
+    color: rgb(214, 46, 51);
+}
+
+.form h4 {
+    color: rgb(214, 46, 51);
+}
+
+.error-message {
+    display: none;
+}
+
+
+
+
+
+
